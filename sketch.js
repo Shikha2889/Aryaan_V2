@@ -149,11 +149,11 @@ function setup() {
   danger1.visible = false
 
 
-  danger2 = createSprite(width / 2, height / 2 - 100, 250, 700);
+  danger2 = createSprite(width / 2+500, height / 2 - 100, 250, 700);
   danger2.addImage("danger2", danger2img)
   danger2.visible = false
 
-  room = createSprite(width / 2+500, height / 2 - 100, 250, 700);
+  room = createSprite(width / 2, height / 2 - 100, 250, 700);
   room.visible = false
 
   nokey = createSprite(width - 150, height / 2 - 100, 50, 50)
